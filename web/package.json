@@ -1,0 +1,9 @@
+{
+  "name": "hivemind-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Live dashboard for the HiveMind agent market (static, zero dependencies)",
+  "scripts": {
+    "dev": "node serve.js"
+  }
+}

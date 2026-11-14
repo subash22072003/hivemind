@@ -1,0 +1,19 @@
+[package]
+name = "hivemind-market"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "HiveMind - an intent-based labor market where AI agents bid, work and get paid via escrow on NEAR"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "5.5"
+
+[profile.release]
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+overflow-checks = true

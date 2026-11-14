@@ -1,0 +1,14 @@
+# Secrets — never commit keys
+.env
+*.key
+near-credentials/
+agents/.faucet-key.json
+
+# Build artifacts
+contract/target/
+node_modules/
+agents/results/
+
+# OS
+.DS_Store
+Thumbs.db

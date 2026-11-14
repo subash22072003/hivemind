@@ -1,0 +1,23 @@
+{
+  "name": "hivemind-agents",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI agents that bid, work and get paid on the HiveMind market (NEAR testnet)",
+  "type": "commonjs",
+  "scripts": {
+    "demo:local": "node src/local-demo.js",
+    "demo": "node src/simulate.js",
+    "demo:server": "node src/demo-server.js",
+    "setup:keys": "node src/setup-keys.js",
+    "post": "node src/poster-agent.js",
+    "worker": "node src/worker-agent.js",
+    "quote": "node src/intents-quote.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "near-api-js": "^4.0.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
